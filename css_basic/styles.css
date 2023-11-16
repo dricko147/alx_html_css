@@ -1,1 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: gold;
+}
 
+header{background-color: plum;
+}
+
+main{
+    display: flex; 
+    flex-direction: row;
+    flex:auto;
+}
+
+ article{
+    flex: 2;
+    overflow-y: auto;
+}
+
+ aside{
+    flex: 1; 
+    overflow-y: auto;
+}
+
+header div {
+    display: flex;
+    height: 2px;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 1px;
+}
+
+table, th, tr, td{
+    border: 2px solid black;
+    font-weight: bold; 
+}
+aside p{
+    background-color:  rgb(125, 135, 154);}
+
+aside{
+    background-color: whitesmoke;
+}
+
+table{
+    width: 400px;
+    height: 250px;
+}
+
+footer { 
+    background-color: palegoldenrod;
+}
+
+footer p a{
+    background-color: rgb(25, 31, 41);
+}

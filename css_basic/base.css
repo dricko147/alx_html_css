@@ -61,6 +61,8 @@ h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
 }
 article {
+    border-bottom: 1px solid rgb(221,221,221);
+	transition: border-bottom-color 1s ease
 }
 header {
 	border-bottom: 1px solid rgb(221,221,221);
@@ -107,7 +109,6 @@ header .right {
 	margin: 0 10px 15px;
 }
 
-
 /* Header */
 header {
 	padding: 20px 0;
@@ -142,14 +143,12 @@ aside p {
 	padding: 20px 20px;
 }
 
-
 /* Footer */
 
 footer {
 	padding: 5px 15px;
 	height: 80px;
 }
-
 
 /* Text styles and margins */
 
@@ -195,6 +194,6 @@ h6 {
   }
 }
 article img{
-	width: 300px;
+	width: 400px;
 	height: 400px;
 }
