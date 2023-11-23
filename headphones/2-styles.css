@@ -1,0 +1,137 @@
+/* SUMMARY
+    1. GLOBAL
+    2. LAYOUT
+    3. SECTION
+    4. CARD
+*/
+
+/*** 1. GLOBAL ***/
+
+/* Reset / Normalize
+   ============================= */body main {
+    display: flex;
+    height: auto;
+ 
+    
+}
+/*header section styling*/
+.main-header { 
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    padding:none;
+    margin: 5px;
+    background-image: url(headphones_hero_1.jpg);
+    color: whitesmoke;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    width: 200vh;
+}
+.logo{
+
+}
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+}
+ul {
+   
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    list-style-type:none;
+    width: 60vh;
+}
+.header-doc {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+    height: 35vh;
+    width: 150vh;    
+}
+/*main starts here*/
+main{
+    display: flex;
+   flex-direction: column;
+    
+}
+/*===============what we do section==========*/
+.sec-one {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.whatever {
+    display: flex;
+   flex-direction: column;
+   justify-content:space-around;
+   width:auto;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+.ipsum {
+    display: flex;
+    justify-content: center;
+}
+.musical {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:auto;
+
+}
+.music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+/*about us section============*/
+.about {
+    display: flex;
+    flex-direction: column;
+    background-image: url(headphones_hero_2.jpg);
+    color: whitesmoke;
+
+
+}
+.pentagon {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width:200vh;
+
+}
+.pentabox {
+    position: relative;
+    width: 100%;
+    max-width: 200vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pentabox img {
+    width: 15vh;
+    height: 15vh;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
